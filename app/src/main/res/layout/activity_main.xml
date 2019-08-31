@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#B2FF59"
+        android:gravity="center"
+        android:text="Các kiểu lập trình sự kiện"
+        android:textColor="#00BCD4"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/txta"
+            android:layout_width="236dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="#FF5722"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/viewA"
+            android:layout_width="wrap_content"
+            android:layout_height="53dp"
+            android:layout_weight="1"
+            android:text="Số A"
+            android:textColor="#3F51B5"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/txtb"
+            android:layout_width="277dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="#8BC34A"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/viewB"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Số B"
+            android:textColor="#FF5722"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/viewkq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FF4081"
+        android:textSize="30sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btntong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F44336"
+                android:text="Tổng 2 số"
+                android:textColor="#00BCD4"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btnhieu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00BCD4"
+                android:text="Hiệu 2 số"
+                android:textColor="#2196F3"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btntich"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#CDDC39"
+                android:text="Tích 2 số"
+                android:textColor="#F44336"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btnthuong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#8BC34A"
+                android:text="Thương 2 số"
+                android:textColor="#009688"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btnucln"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#009688"
+                android:text="Ước chung lớn nhất "
+                android:textColor="#CDDC39"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btnthoat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#3F51B5"
+                android:text="Thoát chương trình"
+                android:textColor="#FF5722"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
